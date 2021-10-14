@@ -5,6 +5,6 @@ The brief was to replicate a landing-page outlined in a design document (shown b
 The project is gives us an opportunity to reinforce and asses our understanding of the material 
 covered to this point, with a focus on HTML and CSS in particular.
 
-![image of design layout document] (https://github.com/twofivetwo/odin-landing-page/blob/main/pictures/landing-page-design-doc-1.png?raw=true)
+![Alt Text] (./pictures/landing-page-design-doc-1.png)
 
 
