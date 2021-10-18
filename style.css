@@ -2,3 +2,29 @@
     border: solid;
     box-sizing: border-box;
 }
+
+html {
+    border-color: orange;
+}
+
+body {
+    border-color: teal;
+}
+
+.wrapper { 
+    border-color: yellowgreen;
+}
+
+header {
+    border-color: rgb(211, 28, 28);
+}
+
+header .logo {
+    border-color: hotpink;
+}
+
+header .header-right {
+    border-color: goldenrod;
+}
+
+
