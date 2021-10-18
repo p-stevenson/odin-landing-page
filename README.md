@@ -7,7 +7,11 @@ The brief was to replicate a landing-page outlined in a design document provided
 The project gives an opportunity to reinforce and asses our understanding of the material 
 covered to this point, with a focus on HTML and CSS.
 
-----------------------------------------------------------------------------------------------
+-----
 
 ![image of design document](pictures/landing-page-design-doc-1.png "Design Document")
+
+-----
+
+Overhead image of waves by Pok Rie from Pexels https://www.pexels.com/@pok-rie-33563?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
