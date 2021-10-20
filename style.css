@@ -1,5 +1,5 @@
 * {
-    /* border: solid; */
+    border: solid;
     box-sizing: border-box;
 }
 
@@ -59,4 +59,33 @@ header .header-right {
 
 .logo, .header-link{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.section-1 {
+    border-color: aqua;
+    display: flex;
+}
+
+.section-1-card {
+    border-color: brown;
+}
+
+.section-1-card .main-title {
+    border-color: limegreen;
+}
+
+.section-1-card .info {
+    border-color: mediumpurple;
+}
+
+.section-1-card button {
+    border-color: mediumvioletred;
+}
+
+.section-1-img {
+    border-color:olivedrab
+}
+
+.section-1-img img {
+    border-color: orangered;
 }
