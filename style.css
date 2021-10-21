@@ -1,5 +1,5 @@
 * {
-    border: solid;
+    /* border: solid; */
     box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ body {
 .wrapper { 
     flex: 1;
     border-color: yellowgreen;
-    max-width: 1200px;
+    max-width: 1000px;
     margin-top: 20px;
 }
 
@@ -64,28 +64,65 @@ header .header-right {
 .section-1 {
     border-color: aqua;
     display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: 140px 0 140px 0;
+    padding: 0;
 }
 
 .section-1-card {
     border-color: brown;
+    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .section-1-card .main-title {
     border-color: limegreen;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0 50px 0 0;
 }
 
 .section-1-card .info {
     border-color: mediumpurple;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0 50px 0 0;
 }
 
 .section-1-card button {
-    border-color: mediumvioletred;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 0 0 0;
+    padding: 6px 30px 6px 30px;
 }
 
 .section-1-img {
-    border-color:olivedrab
+    border-color:olivedrab;
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 .section-1-img img {
     border-color: orangered;
+    flex: 0 1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
+
