@@ -1,5 +1,7 @@
+/* TODO Merge like declarations where it makes sense to do so. */
+
 * {
-    /* border: solid; */
+    border: solid;
     box-sizing: border-box;
 }
 
@@ -126,3 +128,29 @@ header .header-right {
     height: auto;
 }
 
+/* TODO Tidy section 2 class names */
+
+
+.section-2 {
+    border-color: aqua;
+}
+
+.section-2 .subtitle-1 {
+    border-color: bisque;
+}
+
+.section-2-cards {
+    border-color: hotpink;
+}
+
+.section-2-card {
+    border-color: yellow;
+}
+
+.section-2-card .card-img {
+    border-color: orangered;
+}
+
+.section-2-card .card-text {
+    border-color: lawngreen;
+}
