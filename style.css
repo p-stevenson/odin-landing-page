@@ -16,7 +16,8 @@ body {
     justify-content: center;
     background-color: #1F2937;
     margin: 0;
-    padding: 0 100px 0 100px;
+    /* not sure if padding below is needed yet... */
+    /* padding: 0 100px 0 100px; */
 
 }
 
@@ -53,14 +54,14 @@ header .header-right {
     list-style: none;
 }
 
+.logo, .header-link{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .header-link {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-}
-
-.logo, .header-link{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .section-1 {
@@ -79,9 +80,12 @@ header .header-right {
     padding: 0;
 }
 
+.section-1-card .main-title,.info,button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .section-1-card .main-title {
     border-color: limegreen;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -91,7 +95,6 @@ header .header-right {
 
 .section-1-card .info {
     border-color: mediumpurple;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
@@ -99,7 +102,6 @@ header .header-right {
 }
 
 .section-1-card button {
-    font-family: 'Roboto' Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 700;
     background-color: #3882F6;
