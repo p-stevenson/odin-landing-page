@@ -1,7 +1,7 @@
 /* TODO Merge like declarations where it makes sense to do so. */
 
 * {
-    border: solid;
+    /* border: 5px solid; */
     box-sizing: border-box;
 }
 
@@ -13,19 +13,36 @@ html {
 body {
     border-color: teal;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: #1F2937;
     margin: 0;
-    /* not sure if padding below is needed yet... */
-    /* padding: 0 100px 0 100px; */
-
+    padding: 0;
 }
 
-.wrapper { 
+
+.section-1, .section-2 {
+    border-color: hotpink;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    max-width: 100%;
+}
+
+.container {
     border-color: yellowgreen;
+    flex: 1;
     max-width: 1000px;
-    margin-top: 20px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.subtext {
+    border-color: mediumpurple;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -33,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
 }
 
@@ -54,8 +71,8 @@ header .header-right {
     list-style: none;
 }
 
-.logo, .header-link{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.logo, .header-link {
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-link {
@@ -64,11 +81,10 @@ header .header-right {
     font-size: 18px;
 }
 
-.section-1 {
+.section-1-content {
     border-color: aqua;
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
     margin: 140px 0 140px 0;
     padding: 0;
 }
@@ -80,8 +96,8 @@ header .header-right {
     padding: 0;
 }
 
-.section-1-card .main-title,.info,button {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.section-1-card .main-title,.subtext,button,.subtitle {
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-1-card .main-title {
@@ -93,11 +109,7 @@ header .header-right {
     padding: 0 50px 0 0;
 }
 
-.section-1-card .info {
-    border-color: mediumpurple;
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0;
+.section-1-card .subtext {
     padding: 0 50px 0 0;
 }
 
@@ -132,13 +144,18 @@ header .header-right {
 
 /* TODO Tidy section 2 class names */
 
-
 .section-2 {
-    border-color: aqua;
+    background-color: white;
 }
 
-.section-2 .subtitle-1 {
+.section-2 .subtitle {
     border-color: bisque;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0;
+    padding: 40px 0 0 0;
 }
 
 .section-2-cards {
