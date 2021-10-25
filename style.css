@@ -2,7 +2,8 @@
 
 * {
     /* border: 5px solid; */
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -12,29 +13,45 @@ html {
 
 body {
     border-color: teal;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 1440px;
     margin: auto;
     padding: 0;
     background-color: #F9FAF8;
-    box-shadow: -5px 3px 10px 0px rgba(33, 33, 33, 0.31);
+    -webkit-box-shadow: -5px 3px 10px 0px rgba(33, 33, 33, 0.31);
+            box-shadow: -5px 3px 10px 0px rgba(33, 33, 33, 0.31);
 }
 
 
 .section-1, .section-2, .section-3, .section-4, .section-5 {
     border-color: hotpink;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #1F2937;
     max-width: 100%;
 }
 
 .container {
     border-color: yellowgreen;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     max-width: 1000px;
     margin-top: 0;
     padding: 0;
@@ -50,9 +67,15 @@ body {
 
 header {
     border-color: rgb(211, 28, 28);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 20px 0 0 0;
     padding: 0;
 }
@@ -67,6 +90,8 @@ header .logo {
 
 header .header-right {
     border-color: goldenrod;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 0;
@@ -86,15 +111,21 @@ header .header-right {
 
 .section-1 .content {
     border-color: aqua;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 140px 0 140px 0;
     padding: 0;
 }
 
 .section-1-card {
     border-color: brown;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin: 0;
     padding: 0;
 }
@@ -131,15 +162,25 @@ header .header-right {
 
 .section-1-img {
     border-color:olivedrab;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .section-1-img img {
     border-color: orangered;
-    flex: 0 1;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -163,22 +204,37 @@ header .header-right {
 
 .section-2-cards {
     border-color: hotpink;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 45px;
     margin: 0 0 140px 0;
 }
 
 .section-2-card {
     border-color: yellow;
-    flex: 0 1;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .section-2-card .card-img {
-    flex: 0 1;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1;
+            flex: 0 1;
     border: 5px solid #3882F6;
     border-radius: 14px;
     max-width: 175px;
@@ -195,9 +251,16 @@ header .header-right {
 
 .section-3 {
     background-color: #E5E7EB;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .section-3 .quote {
@@ -227,9 +290,14 @@ header .header-right {
 
 .section-4 .container {
     background-color: #3882F6;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border: none;
     border-radius: 8px;
     margin: 100px 0 100px 0;
