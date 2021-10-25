@@ -155,21 +155,36 @@ header .header-right {
     font-weight: 900;
     color: #1F2937;
     margin: 0;
-    padding: 40px 0 0 0;
+    padding: 50px 0 50px 0;
 }
 
 .section-2-cards {
     border-color: hotpink;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin: 0 0 140px 0;
 }
 
 .section-2-card {
     border-color: yellow;
+    flex: 0 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-2-card .card-img {
-    border-color: orangered;
+    border: 5px solid #3882F6;
+    border-radius: 14px;
+    max-width: 175px;
+    height: auto;
+
 }
 
-.section-2-card .card-text {
+.section-2-card .subtext {
     border-color: lawngreen;
+    text-align: center;
+    color: #494e53;
+    margin-top: 12px;
 }
