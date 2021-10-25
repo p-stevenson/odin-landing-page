@@ -23,7 +23,7 @@ body {
 }
 
 
-.section-1, .section-2, .section-3, .section-4 {
+.section-1, .section-2, .section-3, .section-4, .section-5 {
     border-color: hotpink;
     flex: 1;
     display: flex;
@@ -99,7 +99,7 @@ header .header-right {
     padding: 0;
 }
 
-.section-1-card .main-title,.subtext,button,.subtitle,.quote,.speaker {
+.section-1-card .main-title,.subtext,button,.subtitle,.quote,.speaker,h3 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -257,3 +257,9 @@ header .header-right {
     padding: 6px 30px 6px 30px;
 }
 
+.section-5 h3 {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px 0 20px 0;
+}
