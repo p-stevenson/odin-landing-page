@@ -154,6 +154,7 @@ header .header-right {
     color: #E5E7EB;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     margin: 12px 0 0 0;
@@ -317,6 +318,7 @@ header .header-right {
 .section-4 button {
     border: 3px solid #F9FAF8;
     border-radius: 8px;
+    cursor: pointer;
     color: #F9FAF8;
     background-color: transparent;
     font-size: 18px;
